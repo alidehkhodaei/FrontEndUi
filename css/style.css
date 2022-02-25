@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  
+  }
+  
+  body {
+    font-family: "Vazir" !important;
+  }
+
+.icon{
+    color: rgb(60, 16, 143);
+    background-color: #ebeafb;
+    display: inline-flex;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.card-primary{
+    background: #1b2a4e;
+    color: white !important;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-header{
+   border-bottom: 2px solid;
+    height: 35px;
+}
+
+.bg-custom{
+    background-color:rgb(60, 16, 143);
+}
+.text-custom{
+     color: rgb(60, 16, 143);
+}
+.btn-primary{
+    background-color: rgb(60, 16, 143);
+
+}
+.social-icon{
+    color: white;
+}
+
+.bg-img{
+    background-image: url(../images/image6.jpg);
+    background-size: cover;
+    background-color: #656464;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+.justify-text{
+    text-align: justify;
+}
+.size-img{
+    width: 300px;
+}
+
